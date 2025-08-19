@@ -1,0 +1,30 @@
+
+:root{
+  --bg:#0B0E11;
+  --panel:#12161C;
+  --text:#E8E8E8;
+  --muted:#9BA3AF;
+  --accent:#21CE99;
+  --warn:#F5A623;
+  --danger:#FF4D4D;
+}
+.block-container {padding-top: 1rem; padding-bottom: 2rem;}
+.d-card{
+  background: var(--panel);
+  border: 1px solid #1a1f29;
+  border-radius: 10px;
+  padding: 14px 16px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.02) inset;
+}
+h1,h2,h3,h4 { color: var(--text) !important; }
+p,span,div { color: var(--text); }
+small, .muted { color: var(--muted) !important; }
+.stTabs [data-baseweb="tab-list"] { gap: 6px; }
+.stTabs [data-baseweb="tab"]{ background: var(--panel); border-radius: 8px; padding: 8px 12px; }
+.stTabs [aria-selected="true"]{ border-bottom: 2px solid var(--accent) !important; }
+[data-testid="stMetric"]{ background: var(--panel); border:1px solid #1a1f29; padding:12px; border-radius:10px; }
+[data-testid="stMetric"] span{ color: var(--muted); }
+[data-testid="stMetricValue"]{ color: var(--text); }
+thead tr th{ background: #0f141b !important; color: var(--muted) !important; }
+tbody tr{ background: var(--panel) !important; }
+tbody td{ color: var(--text) !important; }

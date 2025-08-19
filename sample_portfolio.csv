@@ -1,0 +1,11 @@
+exchange,symbol,quantity,avg_price,sector
+NSE,RELIANCE.NS,15,2500,Energy
+NSE,TCS.NS,10,3450,Information Technology
+NSE,INFY.NS,12,1500,Information Technology
+NSE,HDFCBANK.NS,18,1550,Financials
+NSE,TATAMOTORS.NS,20,880,Consumer Discretionary
+NASDAQ,AAPL,10,180,Information Technology
+NASDAQ,MSFT,6,330,Information Technology
+NASDAQ,NVDA,3,820,Information Technology
+NYSE,JNJ,6,160,Health Care
+NYSE,XOM,8,112,Energy
